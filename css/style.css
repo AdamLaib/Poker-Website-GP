@@ -1,0 +1,233 @@
+/* Allgemeine Stile */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Helvetica', sans-serif; /* Du kannst die Schriftart nach Bedarf anpassen */
+}
+
+.content-section {
+    text-align: justify;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.content-section p::first-letter {
+    font-size: 1.5em;
+    color: black;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: large;
+}
+
+/* Header-Stile */
+
+header {
+    background-color: black;
+    color: black;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigations-Stile */
+
+nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: lightgray;
+}
+
+nav ul {
+    margin-left: 10px;
+    list-style: none;
+    border: lightgray;
+
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+}
+
+/* Hauptinhalt-Stile */
+
+
+
+/* Stile für Glücksspiel- und Texas Hold'em-Inhalte */
+
+#gluecksspiel {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#texas-holdem {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer-Stile */
+
+footer {
+    background-color: Black;
+    color: darkred;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: darkred;
+}
+div video {
+
+    width: 100vw;
+    height: 450px;
+    object-fit: cover;
+}
+
+.text-box {
+    float: left;
+    width: 100%;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+
+}
+@media (max-width: 768px) {
+    .text-box,
+    .image-box {
+        width: 100%;
+        float: right;
+    }
+}
+.text-box2 {
+    float: right;
+    width: 100%;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* carousel style -------------*/
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
+
+#carousel-container {
+    width: 1296px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#quote-container {
+    display: flex;
+    width: 1000%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.quote {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-style: italic;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-right: 10px;
+}
+
+#prev {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    float: left;
+
+}#next {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    float: right;
+}
+
+
+.abstand{
+    margin-bottom: -20px;
+}
+.abstand2{
+    margin-bottom: -40px;
+}
+.abstandbild{
+    margin-top: +40px;
+}
+
+.logo{
+    margin-left: 0px;
+}
+
+.nav1{
+    margin-top: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.card-img-top{
+    height: 450px;
+}
+
+.active {
+    background-color: firebrick;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+._ce722a2{
+    width: 100%;
+}
+footer ul a {
+    color: firebrick;
+}
